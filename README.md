@@ -97,6 +97,7 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
 
 ## Wireframes
 **Sketch:**
+
 <img src=https://i.imgur.com/X4CfYnv.png width=600>
 
 **Digital Mockup:**
