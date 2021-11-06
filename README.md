@@ -39,7 +39,7 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
 * Login/sign up Screen
    * Allows the user to login if they have an account. The user can create an account. 
 * Marketplace Screen
-   * Shows the user a snapshot of all the the items listed. The price of the items is included and also a picture.
+   * Shows the user a snapshot of all the items listed. The price of the items is included and also a picture.
 * List an item Screen
    * Lets the user list items they would like to sell. The user can add a title, photo, shipping information and description of the item. 
 * Users Active Listings Screen
@@ -97,7 +97,6 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
 
 ## Wireframes
 **Sketch:**
-
 <img src=https://i.imgur.com/X4CfYnv.png width=600>
 
 **Digital Mockup:**
@@ -107,11 +106,88 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
 
 ### [BONUS] Interactive Prototype
 
-**Schema 
-[This section will be completed in Unit 9]
+**Schema:**
 ### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| userID  |string| unique user ID 
+| inventory| array| unique user inventory (selling)
+| cartInventory|array| unique user’s items in cart (buying)
+|listingID (item title)| string| unique ID for user post for selling( some description for the item)
+|listingImage|file(image)|Image that user posts for selling
+|price|number|price total
+|addToCart|pointer to cartInventory|adds an item to cart
+|total|number|total price
+|itemsInCart|pointer to cartInventory|cart inventory
+
+ 
+
+### Networking (requests by screen)
+
+#### Market Place Screen
+    -(READ/GET) Queries certain number of listings as suggestions to the user logged in
+            
+        let query = PFQuery(className:"Listings")
+        
+        query.includeKeys(["author", "listingid", "listingid.author"])
+        query.limit = 20
+        
+        query.findObjectsInBackground{ (listing, error) in
+            if listings != nil{
+                
+                self.posts = listings!
+                self.tableView.reloadData()
+            }
+        }
+    }
+
+#### Search Result Screen
+    -(UPDATE/PUT) Updates search results depending on what user types
+    -(READ/GET) Queries most relevant search result listings depending on user’s input
+    -(CREATE/POST) Search result changes from blank or previous result to newly typed search
+
+#### Listing an Item Screen
+    -(Create/POST) Creates a new listing upon pressing “Sell Item” button
+    -(UPDATE/PUT) New listing has a title seller/user inputs
+    -(UPDATE/PUT) New listing has a photo seller/user inputs
+    -(UPDATE/PUT) New listing has a price seller/user inputs
+    -(UPDATE/PUT) New listing has a shipping price seller/user inputs
+    -(UPDATE/PUT) New listing has a description seller/user inputs
+    -(Delete) Can delete and re-type listing in-takes before listing/pressing “Sell Item”
+
+
+
+#### Seller Inventory Screen
+    -(READ/GET) Userid ->string 
+    -(READ/GET) Inventory -> array of items (listing1, item2) 
+     (For each element in the array)
+    -(READ/GET) Listing -> listing_id -> string
+    -(READ/GET) Listing -> Listing_price -> integer
+    -(READ/GET) Listing -> Listing_image -> image
+
+     
+
+#### Item Listing Screen
+    - (READ/GET Listing) -> lisiting_id-> string 
+    - (READ/GET Listing) -> listing_image -> image
+    - (READ/GET Listing) -> listing_caption -> string
+    - (READ/GET Listing) -> listing_price -> integer
+    - (READ/GET User) -> userid -> string
+    - (UPDATE/PUT) -> Cartinventory
+
+#### Checkout Screen
+
+    -(READ/GET) A listing item name in cart of a buyer
+    -(READ/GET) A listing item price in cart of a buyer
+    -(UPDATE/GET) Get total price
+    -(Create/PUT) Create a new listing user first name and last name
+    -(Create/PUT) Create a new listing user email address
+    -(Create/PUT) Create a new listing user Address
+    -(READ/PUT) Query Checkout user payment method
+    -(Delete) Delete items in the cart after checkout
+
+
+    
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
