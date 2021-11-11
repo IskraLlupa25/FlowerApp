@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CE7887B273DA0C400DB0AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */; };
+		9CE7887D273DA0C400DB0AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */; };
+		9CE7887F273DA0C400DB0AE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887E273DA0C400DB0AE0 /* ViewController.swift */; };
+		9CE78882273DA0C400DB0AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE78880273DA0C400DB0AE0 /* Main.storyboard */; };
+		9CE78884273DA0CB00DB0AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE78883273DA0CB00DB0AE0 /* Assets.xcassets */; };
+		9CE78887273DA0CB00DB0AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE78885273DA0CB00DB0AE0 /* LaunchScreen.storyboard */; };
+		9CE78892273DA0CB00DB0AE0 /* eConBayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE78891273DA0CB00DB0AE0 /* eConBayTests.swift */; };
+		9CE7889C273DA0CB00DB0AE0 /* eConBayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7889B273DA0CB00DB0AE0 /* eConBayUITests.swift */; };
+		9CE7889E273DA0CB00DB0AE0 /* eConBayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7889D273DA0CB00DB0AE0 /* eConBayUITestsLaunchTests.swift */; };
+		A204C6BA085ABDBD996E7E41 /* Pods_eConBay_eConBayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983418E7CFDEDF5570B0CDC7 /* Pods_eConBay_eConBayUITests.framework */; };
+		EFDECF4EE6D0AF672232ECF2 /* Pods_eConBayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA0C4F996621136546D64E2 /* Pods_eConBayTests.framework */; };
+		F26C20911366CF561C3C8CE6 /* Pods_eConBay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C574B515663672AB299DB89C /* Pods_eConBay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CE7888E273DA0CB00DB0AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CE7886F273DA0C300DB0AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CE78876273DA0C400DB0AE0;
+			remoteInfo = eConBay;
+		};
+		9CE78898273DA0CB00DB0AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CE7886F273DA0C300DB0AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CE78876273DA0C400DB0AE0;
+			remoteInfo = eConBay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		249D001A7DD687B2B977418F /* Pods-eConBayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBayTests.debug.xcconfig"; path = "Target Support Files/Pods-eConBayTests/Pods-eConBayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53E303D06F4AAEB5E57E19BF /* Pods-eConBay-eConBayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBay-eConBayUITests.debug.xcconfig"; path = "Target Support Files/Pods-eConBay-eConBayUITests/Pods-eConBay-eConBayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		550041670FFB25E4C27B170B /* Pods-eConBay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBay.debug.xcconfig"; path = "Target Support Files/Pods-eConBay/Pods-eConBay.debug.xcconfig"; sourceTree = "<group>"; };
+		85C5F4986516F6638ADDF606 /* Pods-eConBayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBayTests.release.xcconfig"; path = "Target Support Files/Pods-eConBayTests/Pods-eConBayTests.release.xcconfig"; sourceTree = "<group>"; };
+		983418E7CFDEDF5570B0CDC7 /* Pods_eConBay_eConBayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eConBay_eConBayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE78877273DA0C400DB0AE0 /* eConBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eConBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9CE7887E273DA0C400DB0AE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CE78881273DA0C400DB0AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CE78883273DA0CB00DB0AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CE78886273DA0CB00DB0AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CE78888273DA0CB00DB0AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE7888D273DA0CB00DB0AE0 /* eConBayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eConBayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE78891273DA0CB00DB0AE0 /* eConBayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eConBayTests.swift; sourceTree = "<group>"; };
+		9CE78897273DA0CB00DB0AE0 /* eConBayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eConBayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE7889B273DA0CB00DB0AE0 /* eConBayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eConBayUITests.swift; sourceTree = "<group>"; };
+		9CE7889D273DA0CB00DB0AE0 /* eConBayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eConBayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABBC5D1313F92D8C0D7D17B2 /* Pods-eConBay-eConBayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBay-eConBayUITests.release.xcconfig"; path = "Target Support Files/Pods-eConBay-eConBayUITests/Pods-eConBay-eConBayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFA0C4F996621136546D64E2 /* Pods_eConBayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eConBayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DDE029D0CD610514225C69 /* Pods-eConBay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBay.release.xcconfig"; path = "Target Support Files/Pods-eConBay/Pods-eConBay.release.xcconfig"; sourceTree = "<group>"; };
+		C574B515663672AB299DB89C /* Pods_eConBay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eConBay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CE78874273DA0C400DB0AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26C20911366CF561C3C8CE6 /* Pods_eConBay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE7888A273DA0CB00DB0AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDECF4EE6D0AF672232ECF2 /* Pods_eConBayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE78894273DA0CB00DB0AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204C6BA085ABDBD996E7E41 /* Pods_eConBay_eConBayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CE7886E273DA0C300DB0AE0 = {
+			isa = PBXGroup;
+			children = (
+				9CE78879273DA0C400DB0AE0 /* eConBay */,
+				9CE78890273DA0CB00DB0AE0 /* eConBayTests */,
+				9CE7889A273DA0CB00DB0AE0 /* eConBayUITests */,
+				9CE78878273DA0C400DB0AE0 /* Products */,
+				DA0907F2074D366C548FA815 /* Pods */,
+				F4374ED29F41A051029A694B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CE78878273DA0C400DB0AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CE78877273DA0C400DB0AE0 /* eConBay.app */,
+				9CE7888D273DA0CB00DB0AE0 /* eConBayTests.xctest */,
+				9CE78897273DA0CB00DB0AE0 /* eConBayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CE78879273DA0C400DB0AE0 /* eConBay */ = {
+			isa = PBXGroup;
+			children = (
+				9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */,
+				9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */,
+				9CE7887E273DA0C400DB0AE0 /* ViewController.swift */,
+				9CE78880273DA0C400DB0AE0 /* Main.storyboard */,
+				9CE78883273DA0CB00DB0AE0 /* Assets.xcassets */,
+				9CE78885273DA0CB00DB0AE0 /* LaunchScreen.storyboard */,
+				9CE78888273DA0CB00DB0AE0 /* Info.plist */,
+			);
+			path = eConBay;
+			sourceTree = "<group>";
+		};
+		9CE78890273DA0CB00DB0AE0 /* eConBayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CE78891273DA0CB00DB0AE0 /* eConBayTests.swift */,
+			);
+			path = eConBayTests;
+			sourceTree = "<group>";
+		};
+		9CE7889A273DA0CB00DB0AE0 /* eConBayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CE7889B273DA0CB00DB0AE0 /* eConBayUITests.swift */,
+				9CE7889D273DA0CB00DB0AE0 /* eConBayUITestsLaunchTests.swift */,
+			);
+			path = eConBayUITests;
+			sourceTree = "<group>";
+		};
+		DA0907F2074D366C548FA815 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				550041670FFB25E4C27B170B /* Pods-eConBay.debug.xcconfig */,
+				C1DDE029D0CD610514225C69 /* Pods-eConBay.release.xcconfig */,
+				53E303D06F4AAEB5E57E19BF /* Pods-eConBay-eConBayUITests.debug.xcconfig */,
+				ABBC5D1313F92D8C0D7D17B2 /* Pods-eConBay-eConBayUITests.release.xcconfig */,
+				249D001A7DD687B2B977418F /* Pods-eConBayTests.debug.xcconfig */,
+				85C5F4986516F6638ADDF606 /* Pods-eConBayTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4374ED29F41A051029A694B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C574B515663672AB299DB89C /* Pods_eConBay.framework */,
+				983418E7CFDEDF5570B0CDC7 /* Pods_eConBay_eConBayUITests.framework */,
+				BFA0C4F996621136546D64E2 /* Pods_eConBayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CE78876273DA0C400DB0AE0 /* eConBay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE788A1273DA0CB00DB0AE0 /* Build configuration list for PBXNativeTarget "eConBay" */;
+			buildPhases = (
+				B8A08FD6B0A5A5B6C546CE00 /* [CP] Check Pods Manifest.lock */,
+				9CE78873273DA0C400DB0AE0 /* Sources */,
+				9CE78874273DA0C400DB0AE0 /* Frameworks */,
+				9CE78875273DA0C400DB0AE0 /* Resources */,
+				F8E55B2CFE81429D73711A49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eConBay;
+			productName = eConBay;
+			productReference = 9CE78877273DA0C400DB0AE0 /* eConBay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CE7888C273DA0CB00DB0AE0 /* eConBayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE788A4273DA0CB00DB0AE0 /* Build configuration list for PBXNativeTarget "eConBayTests" */;
+			buildPhases = (
+				CCC104E5A4DD84661A0FEB38 /* [CP] Check Pods Manifest.lock */,
+				9CE78889273DA0CB00DB0AE0 /* Sources */,
+				9CE7888A273DA0CB00DB0AE0 /* Frameworks */,
+				9CE7888B273DA0CB00DB0AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CE7888F273DA0CB00DB0AE0 /* PBXTargetDependency */,
+			);
+			name = eConBayTests;
+			productName = eConBayTests;
+			productReference = 9CE7888D273DA0CB00DB0AE0 /* eConBayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CE78896273DA0CB00DB0AE0 /* eConBayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE788A7273DA0CB00DB0AE0 /* Build configuration list for PBXNativeTarget "eConBayUITests" */;
+			buildPhases = (
+				31949E3C67BA09B8C050F605 /* [CP] Check Pods Manifest.lock */,
+				9CE78893273DA0CB00DB0AE0 /* Sources */,
+				9CE78894273DA0CB00DB0AE0 /* Frameworks */,
+				9CE78895273DA0CB00DB0AE0 /* Resources */,
+				4B74B3C5C154C54FB9AD70C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CE78899273DA0CB00DB0AE0 /* PBXTargetDependency */,
+			);
+			name = eConBayUITests;
+			productName = eConBayUITests;
+			productReference = 9CE78897273DA0CB00DB0AE0 /* eConBayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CE7886F273DA0C300DB0AE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9CE78876273DA0C400DB0AE0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9CE7888C273DA0CB00DB0AE0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9CE78876273DA0C400DB0AE0;
+					};
+					9CE78896273DA0CB00DB0AE0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9CE78876273DA0C400DB0AE0;
+					};
+				};
+			};
+			buildConfigurationList = 9CE78872273DA0C400DB0AE0 /* Build configuration list for PBXProject "eConBay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CE7886E273DA0C300DB0AE0;
+			productRefGroup = 9CE78878273DA0C400DB0AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CE78876273DA0C400DB0AE0 /* eConBay */,
+				9CE7888C273DA0CB00DB0AE0 /* eConBayTests */,
+				9CE78896273DA0CB00DB0AE0 /* eConBayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CE78875273DA0C400DB0AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE78887273DA0CB00DB0AE0 /* LaunchScreen.storyboard in Resources */,
+				9CE78884273DA0CB00DB0AE0 /* Assets.xcassets in Resources */,
+				9CE78882273DA0C400DB0AE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE7888B273DA0CB00DB0AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE78895273DA0CB00DB0AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31949E3C67BA09B8C050F605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eConBay-eConBayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B74B3C5C154C54FB9AD70C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eConBay-eConBayUITests/Pods-eConBay-eConBayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eConBay-eConBayUITests/Pods-eConBay-eConBayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eConBay-eConBayUITests/Pods-eConBay-eConBayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A08FD6B0A5A5B6C546CE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eConBay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC104E5A4DD84661A0FEB38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eConBayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E55B2CFE81429D73711A49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eConBay/Pods-eConBay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eConBay/Pods-eConBay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eConBay/Pods-eConBay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CE78873273DA0C400DB0AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE7887F273DA0C400DB0AE0 /* ViewController.swift in Sources */,
+				9CE7887B273DA0C400DB0AE0 /* AppDelegate.swift in Sources */,
+				9CE7887D273DA0C400DB0AE0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE78889273DA0CB00DB0AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE78892273DA0CB00DB0AE0 /* eConBayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE78893273DA0CB00DB0AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE7889E273DA0CB00DB0AE0 /* eConBayUITestsLaunchTests.swift in Sources */,
+				9CE7889C273DA0CB00DB0AE0 /* eConBayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CE7888F273DA0CB00DB0AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CE78876273DA0C400DB0AE0 /* eConBay */;
+			targetProxy = 9CE7888E273DA0CB00DB0AE0 /* PBXContainerItemProxy */;
+		};
+		9CE78899273DA0CB00DB0AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CE78876273DA0C400DB0AE0 /* eConBay */;
+			targetProxy = 9CE78898273DA0CB00DB0AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CE78880273DA0C400DB0AE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE78881273DA0C400DB0AE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CE78885273DA0CB00DB0AE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE78886273DA0CB00DB0AE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CE7889F273DA0CB00DB0AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CE788A0273DA0CB00DB0AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CE788A2273DA0CB00DB0AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550041670FFB25E4C27B170B /* Pods-eConBay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eConBay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahsinp.eConBay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CE788A3273DA0CB00DB0AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DDE029D0CD610514225C69 /* Pods-eConBay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eConBay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahsinp.eConBay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CE788A5273DA0CB00DB0AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249D001A7DD687B2B977418F /* Pods-eConBayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahsinp.eConBayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eConBay.app/eConBay";
+			};
+			name = Debug;
+		};
+		9CE788A6273DA0CB00DB0AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C5F4986516F6638ADDF606 /* Pods-eConBayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahsinp.eConBayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eConBay.app/eConBay";
+			};
+			name = Release;
+		};
+		9CE788A8273DA0CB00DB0AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E303D06F4AAEB5E57E19BF /* Pods-eConBay-eConBayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahsinp.eConBayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eConBay;
+			};
+			name = Debug;
+		};
+		9CE788A9273DA0CB00DB0AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBC5D1313F92D8C0D7D17B2 /* Pods-eConBay-eConBayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahsinp.eConBayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eConBay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CE78872273DA0C400DB0AE0 /* Build configuration list for PBXProject "eConBay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE7889F273DA0CB00DB0AE0 /* Debug */,
+				9CE788A0273DA0CB00DB0AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE788A1273DA0CB00DB0AE0 /* Build configuration list for PBXNativeTarget "eConBay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE788A2273DA0CB00DB0AE0 /* Debug */,
+				9CE788A3273DA0CB00DB0AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE788A4273DA0CB00DB0AE0 /* Build configuration list for PBXNativeTarget "eConBayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE788A5273DA0CB00DB0AE0 /* Debug */,
+				9CE788A6273DA0CB00DB0AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE788A7273DA0CB00DB0AE0 /* Build configuration list for PBXNativeTarget "eConBayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE788A8273DA0CB00DB0AE0 /* Debug */,
+				9CE788A9273DA0CB00DB0AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CE7886F273DA0C300DB0AE0 /* Project object */;
+}
