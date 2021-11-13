@@ -23,16 +23,18 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
 
 ### 1. User Stories (Required and Optional)
 
-* User logs in or signs up to access, sell, and buy listings.
-* User can see a feed of listed items which they can view or purchase (eBay style).
-* A search feature allows the the user to find listings by keyword
-* Each listing will have a details page with image,price, and other relevant information.
-* User will be able to add listings to cart, modify cart, and complete a checkout with the cart.
+* [X] App starts with animated launch screen
+* [X] Login/ signup screen which takes username and signup
+* [X] User can see a feed of listed items which they can view or purchase (eBay style).
+* [] A search feature allows the the user to find listings by keyword
+* [X] Each listing will have a details page with image,price, and other relevant information.
+* [X] List item screen
+* [] User will be able to add listings to cart, modify cart, and complete a checkout with the cart.
 
 **Optional Nice-to-have Stories**
 
-* User profile will contains all listings made by user.
-* Pseudo payment system at checkout.
+* [x] User profile screen will contains all listings made by user.
+* []Pseudo payment system at checkout.
 
 ### 2. Screen Archetypes
 
@@ -188,6 +190,9 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
     -(Delete) Delete items in the cart after checkout
 
 
-    
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+## Sprint 1 Walkthrough
+
+Here's a walkthrough of the added functionalities:
+![](https://i.imgur.com/zzt5VDP.png)
+
+<img src='https://i.imgur.com/jZiH2dU.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
