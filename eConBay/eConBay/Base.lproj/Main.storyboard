@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="gUL-tZ-4sw">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="3bq-vV-UVE" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="3bq-vV-UVE" customClass="LoginViewController" customModule="eConBay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7nt-ZK-Xoz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,7 +85,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="431" id="WHO-yN-TTI" customClass="PostCell" customModule="Parstagram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="431" id="WHO-yN-TTI" customClass="PostCell" customModule="eConBay" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="431"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WHO-yN-TTI" id="fBQ-G5-JsA">
@@ -126,7 +126,7 @@
                                             <outlet property="usernameLabel" destination="0dx-9K-eqy" id="iaP-hj-RE4"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="71" id="bJA-v5-ene" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="71" id="bJA-v5-ene" customClass="CommentCell" customModule="eConBay" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="475.5" width="414" height="71"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bJA-v5-ene" id="Leo-od-0Ds">
@@ -235,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfm-uf-DBA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="29"/>
+            <point key="canvasLocation" x="2468" y="29"/>
         </scene>
         <!--Thankyou Cell-->
         <scene sceneID="WO6-6P-c6R">
@@ -510,7 +510,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1U0-Ll-kxD" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2491" y="29"/>
+            <point key="canvasLocation" x="845" y="29"/>
         </scene>
     </scenes>
     <resources>
