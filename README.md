@@ -201,9 +201,16 @@ Here's a walkthrough of the added functionalities:
 Parse Dashboard:
 ![](https://i.imgur.com/eRDxc9w.png)
 
-Here's a walkthrough of the added functionalities:Here
+Here's a walkthrough of the added functionalities:
+
 <img src='https://i.imgur.com/2o105cM.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+
+
 
 <img src='https://i.imgur.com/ZPFYT9e.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
-<img src='https://i.imgur.com/Xngr82b.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+
+
+<img src='https://i.imgur.com/uJHxXnx.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
