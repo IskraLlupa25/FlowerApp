@@ -199,13 +199,17 @@ Here's a walkthrough of the added functionalities:
 
 ## Sprint 2 Walkthrough
 Sign Up: 
+
 <img src='https://i.imgur.com/2o105cM.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 Login:
+
 <img src='https://i.imgur.com/ZPFYT9e.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 Listing: 
+
 <img src='https://i.imgur.com/Xngr82b.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 Parse Dashboard:
+
 ![](https://i.imgur.com/eRDxc9w.png)
