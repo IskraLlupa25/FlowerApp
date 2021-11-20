@@ -198,14 +198,12 @@ Here's a walkthrough of the added functionalities:
 <img src='https://i.imgur.com/jZiH2dU.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 ## Sprint 2 Walkthrough
-Sign Up:
-<img src='https://i.imgur.com/2o105cM.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
-
-Login:
-<img src='https://i.imgur.com/ZPFYT9e.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
-
-Listing:
-<img src='https://i.imgur.com/Xngr82b.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
-
 Parse Dashboard:
 ![](https://i.imgur.com/eRDxc9w.png)
+
+Here's a walkthrough of the added functionalities:Here
+<img src='https://i.imgur.com/2o105cM.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/ZPFYT9e.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/Xngr82b.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
