@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CB78A70274837D8004E3FAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB78A6F274837D8004E3FAD /* LoginViewController.swift */; };
+		9CB78A72274874B1004E3FAD /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB78A71274874B1004E3FAD /* ListingViewController.swift */; };
+		9CB78A74274DA831004E3FAD /* UsersActiveListingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB78A73274DA831004E3FAD /* UsersActiveListingsCell.swift */; };
+		9CB78A76274DA83B004E3FAD /* UsersActiveListingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB78A75274DA83B004E3FAD /* UsersActiveListingsController.swift */; };
 		9CE7887B273DA0C400DB0AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */; };
 		9CE7887D273DA0C400DB0AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */; };
 		9CE7887F273DA0C400DB0AE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887E273DA0C400DB0AE0 /* ViewController.swift */; };
@@ -44,6 +48,10 @@
 		550041670FFB25E4C27B170B /* Pods-eConBay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBay.debug.xcconfig"; path = "Target Support Files/Pods-eConBay/Pods-eConBay.debug.xcconfig"; sourceTree = "<group>"; };
 		85C5F4986516F6638ADDF606 /* Pods-eConBayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBayTests.release.xcconfig"; path = "Target Support Files/Pods-eConBayTests/Pods-eConBayTests.release.xcconfig"; sourceTree = "<group>"; };
 		983418E7CFDEDF5570B0CDC7 /* Pods_eConBay_eConBayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eConBay_eConBayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB78A6F274837D8004E3FAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9CB78A71274874B1004E3FAD /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		9CB78A73274DA831004E3FAD /* UsersActiveListingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersActiveListingsCell.swift; path = "../../../../Downloads/Marketplace-App/eConBay/eConBay/UsersActiveListingsCell.swift"; sourceTree = "<group>"; };
+		9CB78A75274DA83B004E3FAD /* UsersActiveListingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersActiveListingsController.swift; path = "../../../../Downloads/Marketplace-App/eConBay/eConBay/UsersActiveListingsController.swift"; sourceTree = "<group>"; };
 		9CE78877273DA0C400DB0AE0 /* eConBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eConBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */,
+				9CB78A6F274837D8004E3FAD /* LoginViewController.swift */,
+				9CB78A71274874B1004E3FAD /* ListingViewController.swift */,
+				9CB78A73274DA831004E3FAD /* UsersActiveListingsCell.swift */,
+				9CB78A75274DA83B004E3FAD /* UsersActiveListingsController.swift */,
 				9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */,
 				9CE7887E273DA0C400DB0AE0 /* ViewController.swift */,
 				9CE78880273DA0C400DB0AE0 /* Main.storyboard */,
@@ -154,7 +166,6 @@
 				249D001A7DD687B2B977418F /* Pods-eConBayTests.debug.xcconfig */,
 				85C5F4986516F6638ADDF606 /* Pods-eConBayTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,9 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB78A70274837D8004E3FAD /* LoginViewController.swift in Sources */,
 				9CE7887F273DA0C400DB0AE0 /* ViewController.swift in Sources */,
+				9CB78A76274DA83B004E3FAD /* UsersActiveListingsController.swift in Sources */,
 				9CE7887B273DA0C400DB0AE0 /* AppDelegate.swift in Sources */,
+				9CB78A74274DA831004E3FAD /* UsersActiveListingsCell.swift in Sources */,
 				9CE7887D273DA0C400DB0AE0 /* SceneDelegate.swift in Sources */,
+				9CB78A72274874B1004E3FAD /* ListingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
