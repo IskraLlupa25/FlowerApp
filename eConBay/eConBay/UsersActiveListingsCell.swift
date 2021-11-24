@@ -12,12 +12,9 @@ class UsersActiveListingsCell: UITableViewCell {
 
     
     @IBOutlet weak var itemPhotoView: UIImageView!
-    
     @IBOutlet weak var titleField: UILabel!
-    
     @IBOutlet weak var priceField: UILabel!
-    
-    @IBOutlet weak var discriptionField: UILabel!
+    @IBOutlet weak var descriptionField: UILabel!
     
     
     override func awakeFromNib() {

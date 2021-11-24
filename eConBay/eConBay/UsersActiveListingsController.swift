@@ -10,9 +10,10 @@ import Parse
 import AlamofireImage
 
 
-class UsersActiveListingsController: UITableViewController {
+class UsersActiveListingsController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-        
+    @IBOutlet weak var tableView: UITableView!
+    
     var listing = [PFObject]()
     
     override func viewDidLoad() {
@@ -25,27 +26,42 @@ class UsersActiveListingsController: UITableViewController {
         super.viewDidAppear(animated)
         
         let query = PFQuery(className: "Listing")
-        query.includeKeys(["author","title","price","shipping","discription","image"])
+        query.includeKeys(["author","title","price","shipping","description","image"])
         query.limit = 20
         
+        
+        query.whereKey("author", equalTo: PFUser.current())
+        
         query.findObjectsInBackground{(listing, error) in
-            if listing != nil{
+          
+            if listing != nil {
+                
                 self.listing = listing!
                 self.tableView.reloadData()
+
             }
+        }
     }
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let list = listing[section]
+        let inventory = (list["description"] as? [PFObject]) ?? []
+        
+        return inventory.count + 1
     }
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
         return listing.count
     }
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UsersActiveListingsCell") as! UsersActiveListingsCell
         
         let listing = listing[indexPath.section]
 
-            cell.titleField.text = listing["title"] as! String
-            cell.priceField.text = listing["price"] as! String
-            cell.discriptionField.text = listing["discription"] as! String
+        cell.titleField.text = listing["title"] as? String
+        cell.priceField.text = listing["price"] as? String
+        cell.descriptionField.text = listing["description"] as? String
         
             
             let itemPhotoView = listing["image"] as! PFFileObject

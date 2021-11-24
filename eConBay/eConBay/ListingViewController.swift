@@ -31,7 +31,7 @@ class ListingViewController: UIViewController, UIImagePickerControllerDelegate, 
         let listing = PFObject(className: "Listing")
         
         listing["title"] = titleField.text!
-        //listing["author"] = PFUser.current()! //Comment out when user is configured
+        listing["author"] = PFUser.current()! //Comment out when user is configured
         
         listing["price"] = priceField.text!
         listing["shipping"] = shippingField.text!
