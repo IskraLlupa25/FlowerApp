@@ -23,6 +23,8 @@
 		A204C6BA085ABDBD996E7E41 /* Pods_eConBay_eConBayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983418E7CFDEDF5570B0CDC7 /* Pods_eConBay_eConBayUITests.framework */; };
 		EFDECF4EE6D0AF672232ECF2 /* Pods_eConBayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA0C4F996621136546D64E2 /* Pods_eConBayTests.framework */; };
 		F26C20911366CF561C3C8CE6 /* Pods_eConBay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C574B515663672AB299DB89C /* Pods_eConBay.framework */; };
+		F7C49C6427572A6300AA38A3 /* MarketGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C49C6327572A6300AA38A3 /* MarketGridCollectionViewCell.swift */; };
+		F7CFDC392750802A00475F9D /* MarketPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFDC382750802A00475F9D /* MarketPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		BFA0C4F996621136546D64E2 /* Pods_eConBayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eConBayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DDE029D0CD610514225C69 /* Pods-eConBay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eConBay.release.xcconfig"; path = "Target Support Files/Pods-eConBay/Pods-eConBay.release.xcconfig"; sourceTree = "<group>"; };
 		C574B515663672AB299DB89C /* Pods_eConBay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eConBay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C49C6327572A6300AA38A3 /* MarketGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7CFDC382750802A00475F9D /* MarketPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				9CB78A71274874B1004E3FAD /* ListingViewController.swift */,
 				71068BAB274DD70F00675CC1 /* UsersActiveListingsCell.swift */,
 				71068BAD274DD71E00675CC1 /* UsersActiveListingsController.swift */,
+				F7CFDC382750802A00475F9D /* MarketPlaceViewController.swift */,
+				F7C49C6327572A6300AA38A3 /* MarketGridCollectionViewCell.swift */,
 				9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */,
 				9CE7887E273DA0C400DB0AE0 /* ViewController.swift */,
 				9CE78880273DA0C400DB0AE0 /* Main.storyboard */,
@@ -420,11 +426,13 @@
 			files = (
 				9CB78A70274837D8004E3FAD /* LoginViewController.swift in Sources */,
 				9CE7887F273DA0C400DB0AE0 /* ViewController.swift in Sources */,
+				F7CFDC392750802A00475F9D /* MarketPlaceViewController.swift in Sources */,
 				71068BAE274DD71E00675CC1 /* UsersActiveListingsController.swift in Sources */,
 				71068BAC274DD70F00675CC1 /* UsersActiveListingsCell.swift in Sources */,
 				9CE7887B273DA0C400DB0AE0 /* AppDelegate.swift in Sources */,
 				9CE7887D273DA0C400DB0AE0 /* SceneDelegate.swift in Sources */,
 				9CB78A72274874B1004E3FAD /* ListingViewController.swift in Sources */,
+				F7C49C6427572A6300AA38A3 /* MarketGridCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
