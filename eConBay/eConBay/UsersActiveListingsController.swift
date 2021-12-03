@@ -72,5 +72,16 @@ class UsersActiveListingsController: UIViewController, UITableViewDelegate, UITa
 
             return cell
         }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Find selected item
+        let cell = sender as! UITableViewCell  // Cell is the one you tapped on
+        let indexPath = tableView.indexPath(for: cell)!
+        let item = listing[indexPath.section]
+        
+        // Pass selected item to detail view controller
+        let detailsViewController = segue.destination as! ItemDetailsViewController
+        detailsViewController.item = item // THIS LINE
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 
 }

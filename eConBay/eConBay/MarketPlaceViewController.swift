@@ -85,6 +85,22 @@ class MarketPlaceViewController: UIViewController, UICollectionViewDataSource, U
                 delegate = windowScene.delegate as? SceneDelegate else { return}
         delegate.window?.rootViewController = loginViewController
         }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Find selected item
+        //let cell = sender as! UICollectionView  // Cell is the one you tapped on
+        //let point: CGPoint = cell.convert(.zero, to:collectionView)
+        //let indexPath = collectionView.indexPathForCell(cell)
+        if let cell = sender as? UICollectionViewCell, let indexPath = collectionView.indexPath(for: cell){
+        
+            let item = listing[indexPath.section]
+        
+        // Pass selected item to detail view controller
+            let detailsViewController = segue.destination as! ItemDetailsViewController
+            detailsViewController.item = item // THIS LINE
+            collectionView.deselectItem(at: indexPath, animated: true)
+        }
+    }
  
     
 }

@@ -11,6 +11,7 @@
 		71068BAE274DD71E00675CC1 /* UsersActiveListingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71068BAD274DD71E00675CC1 /* UsersActiveListingsController.swift */; };
 		9CB78A70274837D8004E3FAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB78A6F274837D8004E3FAD /* LoginViewController.swift */; };
 		9CB78A72274874B1004E3FAD /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB78A71274874B1004E3FAD /* ListingViewController.swift */; };
+		9CBBBF03275ABB0E0090AE2B /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBBF02275ABB0E0090AE2B /* ItemDetailsViewController.swift */; };
 		9CE7887B273DA0C400DB0AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */; };
 		9CE7887D273DA0C400DB0AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */; };
 		9CE7887F273DA0C400DB0AE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7887E273DA0C400DB0AE0 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		983418E7CFDEDF5570B0CDC7 /* Pods_eConBay_eConBayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eConBay_eConBayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB78A6F274837D8004E3FAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9CB78A71274874B1004E3FAD /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		9CBBBF02275ABB0E0090AE2B /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 		9CE78877273DA0C400DB0AE0 /* eConBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eConBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE7887A273DA0C400DB0AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				9CE7887C273DA0C400DB0AE0 /* SceneDelegate.swift */,
 				9CE7887E273DA0C400DB0AE0 /* ViewController.swift */,
 				9CE78880273DA0C400DB0AE0 /* Main.storyboard */,
+				9CBBBF02275ABB0E0090AE2B /* ItemDetailsViewController.swift */,
 				9CE78883273DA0CB00DB0AE0 /* Assets.xcassets */,
 				9CE78885273DA0CB00DB0AE0 /* LaunchScreen.storyboard */,
 				9CE78888273DA0CB00DB0AE0 /* Info.plist */,
@@ -426,6 +429,7 @@
 			files = (
 				9CB78A70274837D8004E3FAD /* LoginViewController.swift in Sources */,
 				9CE7887F273DA0C400DB0AE0 /* ViewController.swift in Sources */,
+				9CBBBF03275ABB0E0090AE2B /* ItemDetailsViewController.swift in Sources */,
 				F7CFDC392750802A00475F9D /* MarketPlaceViewController.swift in Sources */,
 				71068BAE274DD71E00675CC1 /* UsersActiveListingsController.swift in Sources */,
 				71068BAC274DD70F00675CC1 /* UsersActiveListingsCell.swift in Sources */,
