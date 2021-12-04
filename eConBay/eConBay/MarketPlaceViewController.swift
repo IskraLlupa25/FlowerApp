@@ -25,8 +25,8 @@ class MarketPlaceViewController: UIViewController, UICollectionViewDataSource, U
         
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         
-        layout.minimumLineSpacing = 4
-        layout.minimumInteritemSpacing = -9
+        layout.minimumLineSpacing = 0
+        layout.minimumInteritemSpacing = 0
         
        let width = (view.frame.size.width - layout.minimumInteritemSpacing * 2) / 2
         

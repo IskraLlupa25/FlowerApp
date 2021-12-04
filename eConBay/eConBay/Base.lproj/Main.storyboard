@@ -193,7 +193,7 @@
                 <navigationController id="zSj-OA-AVh" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Mbf-Bg-sWj"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ovx-TK-Q8n">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -432,7 +432,7 @@
             <objects>
                 <tableViewController id="ysX-D9-pel" customClass="UsersActiveListingsController" customModule="eConBay" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ec6-aR-f4Y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -567,7 +567,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="0lz-KF-elW"/>
-        <segue reference="fuI-fQ-k3t"/>
+        <segue reference="2qi-Zo-fm6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="econbaylogo" width="306" height="88"/>
