@@ -19,9 +19,22 @@ class MarketGridCollectionViewCell: UICollectionViewCell {
            // Initialization code
        }
 
-   //    override func setSelected(_ selected: Bool, animated: Bool) {
-   //        super.setSelected(selected, animated: animated)
-   //
-   //        // Configure the view for the selected state
-   //    }}
+    //    override var isSelected: Bool{
+    //      didSet{
+    //        if self.isSelected
+    //        {
+    //          self.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
+    //          self.contentView.backgroundColor = UIColor.blue
+    //          self.ItemImageView.isHidden = false
+    //        }
+    //        else
+    //        {
+    //          self.transform = CGAffineTransform.identity
+    //          self.ItemImageView.backgroundColor = UIColor.gray
+    //          //self.ItemImageView.isHidden = true
+    //        }
+    //      }
+    //    }
+    
+
 }

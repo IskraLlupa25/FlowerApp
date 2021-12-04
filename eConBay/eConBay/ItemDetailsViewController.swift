@@ -29,7 +29,7 @@ class ItemDetailsViewController: UIViewController {
         let urlString = itemPhotoView.url!
         let url = URL(string: urlString)!
 
-        //itemPhotoView.af_setImage(withURL: url)
+        self.itemPhotoView.af_setImage(withURL: url)
         // Do any additional setup after loading the view.
     }
     

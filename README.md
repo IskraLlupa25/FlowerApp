@@ -219,3 +219,10 @@ Here's a walkthrough of the added functionalities:
 <img src='https://user-images.githubusercontent.com/80727432/143668192-22369fe0-8b51-44fe-abb7-016367452b13.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 <img src='https://user-images.githubusercontent.com/80727432/143668320-9b565e9e-e7b3-4577-a2f1-153ff553fffc.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+## Sprint 4 Walkthrough!
+<img src='https://i.imgur.com/Jg7T9cu.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/kZwq431.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/8d7Uii5.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />

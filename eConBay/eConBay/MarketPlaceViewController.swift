@@ -74,7 +74,11 @@ class MarketPlaceViewController: UIViewController, UICollectionViewDataSource, U
             return cell
     }
       // Do any additional setup after loading the view.
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 
+      debugPrint("this works")
+     }
+    
     @IBAction func onLogoutButton(_ sender: Any) {
         PFUser.logOut()
         
@@ -93,7 +97,7 @@ class MarketPlaceViewController: UIViewController, UICollectionViewDataSource, U
         //let indexPath = collectionView.indexPathForCell(cell)
         if let cell = sender as? UICollectionViewCell, let indexPath = collectionView.indexPath(for: cell){
         
-            let item = listing[indexPath.section]
+            let item = listing[indexPath.row]
         
         // Pass selected item to detail view controller
             let detailsViewController = segue.destination as! ItemDetailsViewController
