@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Parse
+import AlamofireImage
 
 class MarketGridCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var ItemImageView: UIImageView!
@@ -19,6 +21,29 @@ class MarketGridCollectionViewCell: UICollectionViewCell {
            // Initialization code
        }
 
+    @IBAction func onAddToCart(_ sender: Any) {
+        let cart = PFObject(className: "Cart")
+        
+        cart["title"] = ItemNameLabel.text!
+        cart["author"] = PFUser.current()! //Comment out when user is configured
+        cart["price"] = PriceLabel.text!
+        //cart["quantity"] =
+       
+        
+        let imageData = ItemImageView.image!.pngData()
+        let file = PFFileObject(name: "image.png", data: imageData!)
+        
+        cart["image"] = file
+        
+        cart.saveInBackground { (success, error) in
+            if success{
+                print("saved!")
+            }
+            else{
+                print("error!")
+            }
+        }
+    }
     //    override var isSelected: Bool{
     //      didSet{
     //        if self.isSelected
