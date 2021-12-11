@@ -23,12 +23,9 @@ class MarketGridCollectionViewCell: UICollectionViewCell {
 
     @IBAction func onAddToCart(_ sender: Any) {
         let cart = PFObject(className: "Cart")
-        
         cart["title"] = ItemNameLabel.text!
         cart["author"] = PFUser.current()! //Comment out when user is configured
         cart["price"] = PriceLabel.text!
-        //cart["quantity"] =
-       
         
         let imageData = ItemImageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)

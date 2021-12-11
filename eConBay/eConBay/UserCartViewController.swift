@@ -15,6 +15,7 @@ class UserCartViewController: UIViewController, UITableViewDelegate, UITableView
 
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var totalPrice: UILabel!
     
     var cart = [PFObject]()
 
@@ -61,11 +62,13 @@ class UserCartViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserCartTableViewCell") as! UserCartTableViewCell
         
         let cart = cart[indexPath.section]
+       // let sum = 0.0
 
         cell.titleField.text = cart["title"] as? String
         cell.priceField.text = cart["price"] as? String
         //cell.descriptionField.text = cart["description"] as? String
-        
+        //let myDouble = Double(cell.priceField.text)
+        //totalPrice.text += myDouble
             
             let itemPhotoView = cart["image"] as! PFFileObject
             let urlString = itemPhotoView.url!
