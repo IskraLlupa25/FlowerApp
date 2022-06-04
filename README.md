@@ -20,22 +20,6 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
 - **Scope:** eConBay is geared to allow users to easily browse and find the items they wish to buy. Browsing using keywords will present them with the most relevant search results. Perhaps eConBay will be able to remember items the user has purchased in the past and suggest similar items of interest. It can also evolve into possibly having categorization which will help users locate and browse items more easily. 
 
 ## Product Spec
-
-### 1. User Stories (Required and Optional)
-
-* [X] App starts with animated launch screen
-* [X] Login/ signup screen which takes username and signup
-* [X] User can see a feed of listed items which they can view or purchase (eBay style).
-* [] A search feature allows the the user to find listings by keyword
-* [X] Each listing will have a details page with image,price, and other relevant information.
-* [X] List item screen
-* [] User will be able to add listings to cart, modify cart, and complete a checkout with the cart.
-
-**Optional Nice-to-have Stories**
-
-* [x] User profile screen will contains all listings made by user.
-* []Pseudo payment system at checkout.
-
 ### 2. Screen Archetypes
 
 * Login/sign up Screen
@@ -104,9 +88,6 @@ eConBay is a marketplace app for everyone shopping and selling online. Users can
 **Digital Mockup:**
 ### [BONUS] Digital Wireframes & Mockups
 <img src=https://i.imgur.com/nMND8zK.png width=600>
-
-
-### [BONUS] Interactive Prototype
 
 **Schema:**
 ### Models
