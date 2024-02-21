@@ -1,4 +1,31 @@
-# eConBay
+# FlowerMarketplace
+# credits: https://github.com/iOS-Marketplace-App/Marketplace-App
+# Steps to follow to set up the above project on Mac:
+1. Clone the GitHub Repository:
+   - Open Terminal on your Mac.
+   - Navigate to the directory where you want to clone the GitHub repository using the `cd` command.
+   - Clone the repository using the `git clone` command followed by the repository URL. For example:
+     git clone https://github.com/username/repository.git
+   - Replace `username` with the GitHub username and `repository` with the name of the repository you want to clone.
+
+2. Open Xcode:
+   - Launch Xcode on your Mac.
+
+3. Open the Project:
+   - In Xcode, go to `File` > `Open`.
+   - Navigate to the directory where you cloned the GitHub repository.
+   - Select the `.xcodeproj` or `.xcworkspace` file of the project and click `Open`.
+
+4. Configure Target Operating System:
+   - In Xcode, select the project file from the project navigator.
+   - Under the "Deployment Info" section, set the target iOS version for your project. This determines the minimum iOS version required to run your app.
+
+5. Build and Run the Project:
+   - After configuring the project settings, you can build and run the project.
+   - Select the target device or simulator from the scheme dropdown menu in Xcode.
+   - Click the `Play` button (or `Cmd + R`) to build and run the project.
+
+By following these steps, you can install and set up a GitHub project in Xcode, including configuring the target operating system for your iOS app.
 
 ## Table of Contents
 1. [Overview](#Overview)
